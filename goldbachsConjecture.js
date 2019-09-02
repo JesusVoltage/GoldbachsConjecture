@@ -43,7 +43,7 @@ function isPrime(n) {
 
   for (var i = 2; i < n; i++) {
 
-    if (n % i === Math.pow(i)) {
+    if (Math.pow(i) === 0) {
       return false;
     }
   }
